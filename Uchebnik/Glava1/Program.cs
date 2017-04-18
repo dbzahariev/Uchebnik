@@ -10,7 +10,7 @@ namespace Glava1
     {
         static void Main(string[] args)
         {
-            Task8();
+            Task10();
         }
 
         static void Task6()
@@ -28,6 +28,26 @@ namespace Glava1
         static void Task8()
         {
             Console.WriteLine(System.DateTime.Now);
+        }
+
+        static void Task9()
+        {
+            Console.WriteLine(Math.Sqrt(12345));
+        }
+
+        static void Task10()
+        {
+            for (int i = 2; i <= 102; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+                else
+                {
+                    Console.WriteLine("-" + i);
+                }
+            }
         }
     }
 }
