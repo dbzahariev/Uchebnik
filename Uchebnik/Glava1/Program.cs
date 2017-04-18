@@ -10,7 +10,12 @@ namespace Glava1
     {
         static void Main(string[] args)
         {
+            Task6();
+        }
 
+        static void Task6()
+        {
+            Console.WriteLine("Dimitar Zahariev");
         }
     }
 }
