@@ -10,7 +10,7 @@ namespace Glava1
     {
         static void Main(string[] args)
         {
-            Task7();
+            Task8();
         }
 
         static void Task6()
@@ -23,6 +23,11 @@ namespace Glava1
             Console.WriteLine("1");
             Console.WriteLine("101");
             Console.WriteLine("1001");
+        }
+
+        static void Task8()
+        {
+            Console.WriteLine(System.DateTime.Now);
         }
     }
 }
