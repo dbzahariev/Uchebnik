@@ -10,7 +10,7 @@ namespace Glava1
     {
         static void Main(string[] args)
         {
-            Task10();
+            Task11();
         }
 
         static void Task6()
@@ -48,6 +48,14 @@ namespace Glava1
                     Console.WriteLine("-" + i);
                 }
             }
+        }
+
+        static void Task11()
+        {
+            int vyzrast = int.Parse(Console.ReadLine());
+            DateTime dt = new DateTime((DateTime.Now.Year - vyzrast),DateTime.Now.Month,DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
+            dt = dt.AddYears(10);
+            Console.WriteLine(dt);
         }
     }
 }
