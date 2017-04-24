@@ -76,7 +76,9 @@ namespace Glava2
             int B = 10;
             int Change = 0;
 
+            A = A + B;
+            B = A - B;
+            A = A - B;
         }
-
     }
 }
