@@ -6,7 +6,7 @@ namespace Glava2
     {
         static void Main(string[] args)
         {
-            Task6();
+            Task8();
         }
 
         static void Task1()
@@ -56,7 +56,27 @@ namespace Glava2
 
         static void Task6()
         {
+            Console.WriteLine("    ©    ");
+            Console.WriteLine("   © ©   ");
+            Console.WriteLine("  ©   ©  ");
+            Console.WriteLine(" ©     © ");
+            Console.WriteLine("©©©©©©©©©");
+        }
+
+        static void Task7() {
+            string PIme = "";
+            string FIme = "";
+            int Godini = 0;
+            bool isMale = false;
+            int Nomer = 27560000;
+        }
+
+        static void Task8() {
+            int A = 5;
+            int B = 10;
+            int Change = 0;
 
         }
+
     }
 }
